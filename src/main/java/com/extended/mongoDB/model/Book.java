@@ -1,4 +1,4 @@
-package com.extended.model.noDB;
+package com.extended.mongoDB.model;
 
 
 import lombok.Data;

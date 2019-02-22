@@ -1,4 +1,4 @@
-package com.extended.config;
+package com.extended.mongoDB.config;
 
 import com.mongodb.MongoClientOptions;
 import org.springframework.beans.factory.ObjectProvider;

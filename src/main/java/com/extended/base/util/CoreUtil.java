@@ -1,4 +1,4 @@
-package com.extended.util;
+package com.extended.base.util;
 
 import java.io.File;
 import java.net.URL;

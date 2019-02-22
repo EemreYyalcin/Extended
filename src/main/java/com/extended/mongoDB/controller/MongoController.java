@@ -1,6 +1,7 @@
 package com.extended.mongoDB.controller;
 
 
+import com.extended.base.profile.MongoProfile;
 import com.extended.mongoDB.model.Book;
 import com.extended.mongoDB.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,10 +11,9 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-
+@MongoProfile
 @RestController
 @RequestMapping("extended")
-@Profile("mongo")
 public class MongoController {
 
     @Autowired

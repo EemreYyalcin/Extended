@@ -1,5 +1,6 @@
 package com.extended.mongoDB.service;
 
+import com.extended.base.profile.MongoProfile;
 import com.extended.mongoDB.model.Book;
 import com.extended.mongoDB.repo.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Profile("mongo")
+@MongoProfile
 @Service
 public class BookService {
 
